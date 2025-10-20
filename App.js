@@ -17,6 +17,7 @@ export default function App() {
         await AsyncStorage.setItem(uuid, JSON.stringify(booking));
         alert("Saved with UUID: " + uuid);
         Alert.alert("Saved with UUID: " + uuid);
+        await AsyncStorage.setItem(uuid, JSON.stringify(booking));
   }
 
 
